@@ -1,0 +1,11 @@
+# describes how the plugin appears in the Buildkite Plugin Directory, what it requires, and what configuration options it accepts.
+
+name: File Counter
+description: Annotates the build with a file count
+author: https://github.com/dlcmh
+requirements: []
+configuration:
+  properties:
+    pattern:
+      type: string
+  additionalProperties: false
